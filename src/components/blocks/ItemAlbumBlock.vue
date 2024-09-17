@@ -26,7 +26,7 @@ export default {
   display: flex
   flex-direction: column
   width: 36rem
-  transition: all .4s
+  transition: all .25s
 
   &__image-box
     position: relative
