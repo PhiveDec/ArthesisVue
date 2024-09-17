@@ -1,0 +1,36 @@
+@import "vars"
+
+@keyframes rotate-logo
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+
+@keyframes loading-icon
+  0%
+    transform: scale(0.2)
+    opacity: 0.8
+    color: $colorStylishGeneral
+  50%
+    color: $colorStylishAccent
+  80%
+    transform: scale(1.2) rotate(-288deg)
+    opacity: 0
+  100%
+    transform: scale(2.2) rotate(-360deg)
+    opacity: 0
+    color: $colorStylishGeneral
+
+
+@keyframes loading-text
+  0%
+    color: $colorStylishGeneral
+    opacity: 0.8
+  50%
+    color: $colorStylishAccent
+  80%
+    opacity: .5
+  100%
+    color: $colorStylishGeneral
+    opacity: .8

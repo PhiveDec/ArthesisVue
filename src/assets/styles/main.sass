@@ -1,0 +1,32 @@
+@import "vars"
+@import "mixins"
+
+html
+  font-size: 16px
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+a
+  text-decoration: none
+  color: $colorText
+
+body
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  font-family: "Noto Sans", sans-serif
+  min-height: 100vh
+  background-color: $colorBackground
+  font-size: 1rem
+  font-weight: 300
+  color: $colorText
+
+.center
+  padding-left: calc(50% - ($widthContent / 2 + $sidePadding))
+  padding-right: calc(50% - ($widthContent / 2 + $sidePadding))
+
+.container
+  padding: 0 $sidePadding
